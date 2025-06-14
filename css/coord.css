@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    background-color: burlywood;
+    margin: 15px 0px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    background-image: url("../imagenes/coord/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 4px 3px 5px 0px rgb(0 0 0 / 30%);
+}
+
+section span {
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 4px 2px 3px black;
+}
+
+section p {
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 4px 2px 3px black;
+  margin-top: 15px;
+}
+
+section p a {
+  text-decoration: none;
+    text-shadow: 2px 1px 4px #524f4f;
+    color: rgb(255 224 1);
+    font-size: large;
+    font-weight: bolder;
+}
+
+section p a:hover {
+  color: #ff9901;
+}
+/**************
+tabla
+**************/
+
+table.tabla {
+    border: 2px solid #FFE101;
+    background-color: #01347C;
+    width: 750px;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 25px 5px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 4px 3px 5px 0px rgb(0 0 0 / 30%);
+  }
+
+  table.tabla td, table.tabla th {
+    border: 1px solid #55555500;
+    padding: 8px 10px;
+  }
+
+  table.tabla tbody td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 10px 9px;
+    text-align: left;
+  }
+
+  table.tabla tr:nth-child(even) {
+    background: #FCE300;
+  }
+
+  table.tabla thead {
+    background: #FCD703;
+  }
+
+  table.tabla thead th {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    border-left: 2px solid #FCD703;
+  }
+
+  table.tabla thead th:first-child {
+    border-left: none;
+    width: 30%;
+  }
+  
+  table.tabla tfoot {
+    font-size: 8px;
+    font-weight: normal;
+  }
+  table.tabla tfoot td {
+    font-size: 8px;
+  }

@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/************************************************************
+/empiesa section arriba
+************************************************************/
+section {
+    width: 100%;
+    margin: 15px 0px;
+    /*height: 400px;*/
+    border-radius: 10px;
+    background-color: rgb(238, 235, 235);
+}
+
+section .contenedor {
+    width: 100%;
+    display: flex;
+    background-image: url("../imagenes/somos/1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+section .contenedor .texto {
+    width: 50%;
+    padding: 5px;
+}
+
+section .contenedor .texto h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 4px 2px 8px rgba(0, 0, 0, 1);
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+section .contenedor .texto p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    text-align: justify;
+    text-shadow: 3px 0px 4px rgb(209 203 203);
+}
+
+section .contenedor .texto span {
+    font-weight: bold;
+    font-size: large;
+    color: #FFD21D;
+    text-shadow: 1px 1px 3px rgb(0 0 0);
+}
+
+section .contenedor .adicional {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+
+section .contenedor .adicional .contenidos {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .contenedor .adicional .contenidos p {
+    font-family: sans-serif;
+    color: initial;
+    font-size: small;
+    text-shadow: 2px 0px 2px #fff;
+    margin: 10px 0px;
+}
+
+section .contenedor .adicional .contenidos span {
+    color: white;
+    font-family: system-ui;
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 10px 0px;
+    text-shadow: 2px 0px 8px #000;
+}
+
+section .contenedor .adicional .contenidos i {
+    color: white;
+    margin: 10px 0px;
+}
+/************************************************************
+/termina section arriba
+************************************************************/
+
+/************************************************************
+/empiesa section abajo
+************************************************************/
+section .caja {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+section .caja .titulo1 {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+section .caja .titulo1 p {
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: #444446;
+    font-weight: 900;
+    text-shadow: 3px 1px 1px rgb(148 146 146);
+}
+
+section .caja .caja2 {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section .caja .caja2 .cajitas {
+    width: 20%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+section .caja .caja2 .cajitas img {
+    width: 100%;
+}
+
+section .caja .caja2 .cajitas .inform {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid;
+    background-color: #050044;
+}
+
+section .caja .caja2 .cajitas .inform h5 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+}
+
+section .caja .caja2 .cajitas .inform span {
+    color: white;
+    font-family: monospace;
+    font-size: small;
+}

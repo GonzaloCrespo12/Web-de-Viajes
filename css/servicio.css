@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 35px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 5px 0px rgb(0 0 0 / 30%);
+    background-image: url("../imagenes/servi/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section h5 {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(2, 2, 104);
+    font-size: x-large;
+}
+
+section .servicios {
+    display: flex;
+    width: 100%;
+    margin: 55px 0px;
+}
+
+section .servicios .servicio {
+    display: grid;
+    width: 30%;
+    padding: 5px;
+    margin: auto;
+    justify-items: center;
+}
+
+section .servicios .servicio i {
+    margin: 10px 0px;
+    color: rgb(255, 204, 0);
+}
+
+section .servicios .servicio span {
+    margin: 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+}
+
+section .servicios .servicio p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: smaller;
+    color: rgb(109, 109, 109);
+    text-shadow: 2px 2px 3px #c5c5c5;
+}
+
+section .contenedor {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 300px;
+}
+
+section .contenedor .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+    text-shadow: 3px 2px 5px black;
+}
+
+section .contenedor .image1 {
+    background-color: tomato;
+    width: 50%;
+    margin-right: 5px;
+    position: relative;
+    background-image: url("../imagenes/servi/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section .contenedor .cont1 {
+    width: 50%;
+    margin-left: 5px;
+    display: grid;
+}
+
+section .contenedor .cont1 .image2 {
+    background-color: violet;
+    width: 100%;
+    height: 98%;
+    margin-bottom: 5px;
+    position: relative;
+    background-image: url("../imagenes/servi/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section .contenedor .cont1 .cont2 {
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+
+section .contenedor .cont1 .cont2 .image3 {
+    background-color: yellow;
+    width: 50%;
+    margin-right: 5px;
+    position: relative;
+    background-image: url("../imagenes/servi/4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section .contenedor .cont1 .cont2 .image4 {
+    background-color: rgb(0, 247, 255);
+    width: 50%;
+    margin-left: 5px;
+    position: relative;
+    background-image: url("../imagenes/servi/5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

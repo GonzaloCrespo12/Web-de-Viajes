@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: ghostwhite;
+    background-image: url("../imagenes/index/fondo.jpg");
+    background-size: cover;
+    display: block;
+}
+
+.principal {
+    margin: auto;
+    width: 50%;
+    background-color: transparent;
+    display: block;
+}
+
+.principal .titulo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 15% 0% 2% 0%;
+    background-color: rgb(128, 255, 111);
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 6px 6px 6px 0px rgb(33 32 32 / 36%);
+}
+
+.principal .titulo .icono {
+    width: 10%;
+    margin: 0px 8px;
+    justify-content: center;
+}
+
+.principal .titulo i {
+   margin-left: 25px;
+}
+
+.principal .titulo .correcto {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    font-size: smaller;
+    text-align: center;
+    text-shadow: 3px 2px 3px #252525;
+}
+/*********************
+/ informacion
+/********************/
+
+.info {
+    padding: 15px;
+    background-color: #e6e5e5;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px 0px rgb(33 32 32 / 36%);
+}
+
+.info span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 2px 3px #969494;
+}
+
+.info p {
+    font-family: sans-serif;
+    margin: 10px 0px;
+    font-size: smaller;
+}
+/*********************
+/ boton atras
+/********************/
+
+button {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*********************
+/ ESTILOS PAGINA NOOK
+/********************/
+
+.principal .titulo1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 15% 0% 2% 0%;
+    background-color: rgb(252, 96, 96);
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 6px 6px 6px 0px rgb(33 32 32 / 36%);
+}
+
+.principal .titulo1 .icono {
+    width: 10%;
+    margin: 0px 8px;
+    justify-content: center;
+}
+
+.principal .titulo1 i {
+   margin-left: 25px;
+}
+
+.principal .titulo1 .correcto {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    font-size: smaller;
+    text-align: center;
+    text-shadow: 3px 2px 3px #252525;
+}
+
+.info1 {
+    padding: 15px;
+    background-color: #e6e5e5;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px 0px rgb(33 32 32 / 36%);
+    text-align: center;
+}
+
+.info1 span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 2px 3px #969494;
+}
+
+.info1 p {
+    font-family: sans-serif;
+    margin: 10px 0px;
+    font-size: smaller;
+}
+/*********************
+/ boton atras
+/********************/
+
+button {
+    padding: 5px;
+    margin-top: 5px;
+}

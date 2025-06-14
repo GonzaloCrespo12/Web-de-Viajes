@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: ghostwhite;
+    background-image: url("../imagenes/index/fondo.jpg");
+    background-size: cover;
+}
+
+.principal {
+    margin: auto;
+    width: 80%;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #fce27b;
+    border-radius: 5px;
+}
+/**************************************************************
+/empiesa header
+**************************************************************/
+header {
+    background-color: #050044;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+header .logo {
+    width: 30%;
+    height: 150px;
+    background-color: #cccccc;
+    background-image: url("../imagenes/index/header.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+header nav {
+    width: 70%;
+    height: 150px;
+    padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+    margin: 0px 15px 0px 15px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .2s ease-out all ;
+}
+
+header nav li a:hover {
+    color: #1C1C1E;
+    background-color: #FFD21D;
+    border: 1px solid #FFD21D;
+    border-radius: 20px;
+    padding: 5px;
+}
+/************************************************************
+/termina header
+************************************************************/
+
+/************************************************************
+/empiesa section
+************************************************************/
+section {
+    width: 100%;
+    /*height: 800px;*/
+}
+
+section .contenido {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    background-color: #FFD21D ;
+    border-radius: 5px;
+}
+
+section .contenido .foto {
+    width: 40%;
+    margin-left: 2%;
+}
+
+section .contenido .foto img {
+    box-shadow: 3px 3px 5px 0px rgba(92, 71, 5);
+}
+
+section .contenido .foto .img1 {
+    margin-left: 30px;
+}
+
+section .contenido .foto .img2 {
+    margin-left: 35px;
+}
+
+section .contenido .foto .img3 {
+    margin-left: 85px;
+}
+
+section .contenido .texto {
+    width: 50%;
+    margin-left: 30px;
+}
+
+section .contenido .texto .titulo {
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+    background-color: #01016d;
+    text-align: center;
+    box-shadow: 4px 3px 1px 0px rgb(38, 111, 247);
+}
+
+section .contenido .texto .titulo h2 {
+    font-family: cursive;
+    color: white;
+    font-size: unset;
+}
+
+section .contenido .texto p {
+    margin-top: 15px;
+    font-family: system-ui;
+    text-align: justify;
+    font-size: smaller;
+}
+
+/************************************************************
+/termina section
+************************************************************/
+
+/************************************************************
+/empieza lugares populares
+************************************************************/
+section h3 {
+    width: 20%;
+    padding: 5px;
+    font-family: -apple-system, BlinkMacSystemFont,
+                'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+                'Open Sans', 'Helvetica Neue',
+                sans-serif;
+    background-color: #FFD21D ;
+    font-size: medium;
+}
+
+section .popular {
+    width: 100%;
+    height: 250px;
+    background-color: #FFD21D;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+section .popular .cajas {
+    width: 20%;
+    margin: auto;
+    display: block;
+    /*border: 1px solid #ccc;*/
+    border-radius: 5px;
+    background-color: #FFD21D;
+    position: relative;
+}
+
+section .popular .cajas .ribbon {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+section .popular .cajas .ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#F79E05 0%, #8F5408 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+section .popular .cajas .ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #8F5408;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F5408;
+}
+section .popular .cajas .ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #8F5408;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F5408;
+}
+
+
+
+section .popular .cajas .titulo {
+    text-align: center;
+    padding: 6px;
+    background-color: #050044;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: smaller;
+    border-radius: 1px;
+}
+
+/*section .popular .cajas .img {
+    height: 100%;
+    background-image: url("imagenes/index/4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}*/
+
+section .popular .cajas  img{
+    width: 100%;
+    border-radius: 1px;
+}
+/************************************************************
+/termina lugares populares
+************************************************************/
+
+/************************************************************
+/empiesa botones
+************************************************************/
+.botones {
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    background-color: #FFD21D;
+
+}
+.botones button {
+    margin: 1% 2%;
+    border: none;
+    color: #050044;
+    font-size: 25px;
+    background-color: #FFD21D;
+}
+
+.botones button:hover {
+    cursor: pointer;
+    color: #08016a;
+}
+/************************************************************
+/termina botones
+************************************************************/
+
+
+/************************************************************
+/empiesa footer
+************************************************************/
+footer {
+    background-color: #050044;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+footer .logo_footer {
+    width: 40%;
+    /* margin: auto; */
+    margin: 5% 0% 20px 0%;
+    height: 70px;
+    background-image: url("../imagenes/index/header.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+footer .informacion {
+    width: 40%;
+    /*height: 40px;*/
+    display: flex;
+    margin-left: 5%;
+    /*background-color: blanchedalmond;*/
+
+}
+footer .informacion .contenido {
+    margin: 5% 5% 5% 5%;
+}
+
+footer .informacion .contenido h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-bottom: 4%;
+}
+
+footer .informacion .contenido li {
+    margin: 8% 0% 8% 0%;
+    list-style: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+footer .informacion .contenido li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+    color: white;
+}
+
+footer .informacion .contenido li a:hover {
+    color: #cccccc;
+}
+
+.pie {
+    width: 100%;
+    background-color: #1E1E23;
+    height: 20px;
+    text-align: center;
+}
+
+.pie span {
+    color: white;
+    font-family: sans-serif;
+    font-size: xx-small;
+}
+/***********************************************************
+/termina footer
+**********************************************************+/
